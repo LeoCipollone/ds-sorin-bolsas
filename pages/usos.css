@@ -1,0 +1,49 @@
+body {
+  margin: 0;
+  background: linear-gradient(
+    314.78deg,
+    rgba(140, 158, 219, 0.16) 50.21%,
+    #6385fb 50.22%
+  );
+  color: white;
+}
+.products__card-container {
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+  margin: 15px;
+  margin-top: 0;
+  flex-wrap: wrap;
+}
+.products__card {
+  display: flex;
+  width: 100vw;
+  min-height: 260px;
+  background-color: #3f55ca;
+  border-radius: 43px;
+  padding: 20px;
+}
+.products__card div {
+  width: 100%;
+}
+.products__image-card {
+  align-self: center;
+  width: 320px;
+  height: 228px;
+  border-radius: 43px;
+}
+.products__title-card {
+  color: white;
+  text-align: center;
+  font-size: 24px;
+  font-weight: 700;
+  font-family: "Roboto", sans-serif;
+}
+
+.products__paragraph-card {
+  color: white;
+  font-size: 20px;
+  font-family: "Roboto", sans-serif;
+  font-weight: lighter;
+  margin: 20px;
+}
