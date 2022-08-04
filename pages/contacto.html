@@ -1,1 +1,86 @@
-<h2>Contacto</h2>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto:wght@700&display=swap"
+    rel="stylesheet" />
+  <script src="https://kit.fontawesome.com/ccba2732cb.js" crossorigin="anonymous"></script>
+
+  <link rel="icon" type="image/x-icon" href="../images/favicon.png" />
+  <link rel="stylesheet" href="../index.css" />
+  <link rel="stylesheet" href="./contacto.css" />
+  <title>Contacto</title>
+</head>
+
+<body>
+  <section class="header-component">
+    <header class="header-container">
+      <a class="header-logo" href="/index.html">
+        <img class="logo" src="../images/logo.png" />
+        <img class="logo-mobile" src="../images/logo-mobile.png" />
+      </a>
+
+      <nav class="header-menu">
+        <div class="header-menu-line"></div>
+      </nav>
+      <div class="header-content-links">
+        <a class="header-links" href="../index.html">Inicio</a>
+        <a class="header-links" href="/pages/productos.html">Productos</a>
+        <a class="header-links" href="/pages/usos.html">Usos</a>
+        <a class="header-links" href="/pages/equipamiento.html">Equipamiento</a>
+        <a class="header-links" href="/pages/clientes.html">Clientes</a>
+        <a class="header-links" href="/pages/contacto.html">Contacto</a>
+      </div>
+    </header>
+  </section>
+  <h2 class="form-title">Estemos en Contacto</h2>
+  <form action="form.php" method="post">
+    <div class="form-row">
+      <input id="nombre" name="nombre" type="text" placeholder="Nombre *" />
+    </div>
+
+    <div class="form-row">
+      <input id="telefono" name="telefono" type="number" placeholder="Teléfono" />
+    </div>
+
+    <div class="form-row">
+      <input id="email" name="email" type="email" placeholder="E-mail *" />
+    </div>
+
+    <div class="form-row">
+      <input id="empresa" name="empresa" type="text" placeholder="Empresa" />
+    </div>
+
+    <div class="form-row">
+      <textarea name="consulta" id="consulta" cols="30" rows="10" placeholder="Consulta *"></textarea>
+    </div>
+
+    <p class="form-paragraph">* Estos campos son obligatorios</p>
+
+    <div class="button-container">
+      <button class="form-button">Enviar</button>
+    </div>
+  </form>
+  <h2 class="form-title">Nuestras oficinas</h2>
+  <section class="oficinas">
+    <img class="form-img" src="../images/oficinas.jpg" alt="Oficinas" />
+    <p class="form-paragraph lastP">Ruta 25 Km 7.5 <br>
+      Patagones S/N y/o Pasaje Las Alicatas, <br>
+      Villa Rosa, Pilar (B1631GDS) <br>
+      Buenos Aires, Argentina. <br>
+      jni@sorinbolsas.com</p>
+  </section>
+
+  <a class="whatsapp" href="https://wa.me/5491132361569" target="_blank">
+    <i class="fa-brands fa-whatsapp"></i>
+  </a>
+
+  <script src="../index.js"></script>
+</body>
+
+</html>

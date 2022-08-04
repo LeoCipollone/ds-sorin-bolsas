@@ -1,0 +1,94 @@
+body {
+  margin: 0;
+  margin-bottom: 20px;
+  color: white;
+  background-image: url(../images/background.jpg);
+  background-position: center;
+  background-size: cover;
+  height: 100%;
+}
+.equipamiento-paragraph {
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  margin: 0px;
+  padding: 45px;
+  color: white;
+  text-shadow: 0px 3px 3px rgba(0, 0, 0, 0.25);
+
+}
+.equipamiento-title {
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-size: 35px;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  color: white;
+  width: 100%;
+  margin: 35px 0;
+  margin-bottom: 15px;
+}
+.products__card-container {
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+  margin: 15px;
+  margin-top: 0;
+  flex-wrap: wrap;
+}
+.products__card {
+  display: flex;
+  width: 100vw;
+  min-height: 200px;
+  background-color: rgba(85, 153, 255, 0.8);
+  border-radius: 43px;
+  padding: 20px;
+}
+.products__card div {
+  width: 100%;
+}
+.products__image-card {
+  align-self: center;
+  width: 450px;
+  height: 150px;
+  border-radius: 43px;
+}
+.products__title-card {
+  color: white;
+  margin-left: 20px;
+  font-size: 24px;
+  font-weight: 700;
+  font-family: "Roboto", sans-serif;
+  text-shadow: 0px 3px 3px rgba(0, 0, 0, 0.25);
+}
+
+.products__paragraph-card {
+  color: white;
+  font-size: 20px;
+  font-family: "Roboto", sans-serif;
+  text-shadow: 0px 3px 3px rgba(0, 0, 0, 0.25);
+  margin: 20px;
+}
+
+.products-title.contacto {
+  margin: 20px 0;
+}
+
+@media (max-width: 768px) {
+  .products__card {
+    flex-direction: column;
+    width: auto;
+  }
+  .products__title-card {
+    text-align: center;
+  }
+  .products__image-card {
+    align-self: center;
+    width: 95%;
+    margin-top: 5px;
+  }
+  .products__paragraph-card{
+    margin: 20px 10px;
+  }
+}
