@@ -1,0 +1,128 @@
+body {
+  margin: 0;
+  margin-bottom: 20px;
+  color: white;
+  background-image: url(../images/background.jpg);
+  background-position: center;
+  background-size: cover;
+  height: 100%;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.form-title {
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);  
+  font-weight: 700;
+  font-size: 35px;
+  color: white;
+  width: auto;
+  margin: 35px 10px;
+}
+
+.form-row {
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+}
+
+input {
+  border: none;
+  outline: none;
+  padding: 15px;
+  margin: 10px 15px;
+  background-color: rgba(120, 165, 233, 0.8);
+  border-radius: 8px;
+  color: #fff;
+  font-size: medium;
+  width: 90%;
+}
+
+input::placeholder {
+  color: #fff;
+}
+
+input:focus {
+  background-color: rgba(79, 108, 151, 0.8);
+}
+
+textarea {
+  border: none;
+  outline: none;
+  padding: 15px;
+  margin: 10px 15px;
+  background-color: rgba(120, 165, 233, 0.8);
+  border-radius: 8px;
+  color: #fff;
+  font-family: sans-serif;
+  font-size: medium;
+  width: 90%;
+}
+
+textarea::placeholder {
+  color: #fff;
+}
+
+textarea:focus {
+  background-color: rgba(79, 108, 151, 0.8);
+}
+
+.form-paragraph {
+  text-align: unset;
+  padding: 0 20px;
+  color: #fff;
+  font-weight: bolder;
+  text-shadow: 0px 3px 3px rgba(0, 0, 0, 0.25);
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;
+}
+
+.form-button {
+  display: flex;
+  width: 160px;
+  height: 60px;
+  font-size: 1.2em;
+  justify-content: center;
+  align-items: center;
+  background: #3f55ca;
+  color: #fff;
+  border: none;
+  text-transform: uppercase;
+  margin: 10px 0;
+}
+
+.form-button:hover {
+  transition: 0.3s;
+  letter-spacing: 2px;
+  background-color: #384bb8;
+}
+
+.form-img {
+  border-radius: 8px;
+}
+
+.oficinas {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+}
+
+@media (max-width: 768px) {
+  .oficinas {
+    flex-direction: column;
+  }
+  .form-row {
+    width: 90%;
+  }
+  .form-paragraph.lastP {
+    padding: 0;
+  }
+}
