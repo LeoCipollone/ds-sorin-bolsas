@@ -114,7 +114,12 @@ textarea:focus {
   align-items: center;
   padding: 10px;
 }
-
+a {
+  text-decoration: none;
+}
+.copyright {
+  margin-bottom: 80px;
+}
 @media (max-width: 768px) {
   .oficinas {
     flex-direction: column;
