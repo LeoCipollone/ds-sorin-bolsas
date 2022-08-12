@@ -91,3 +91,9 @@ body {
     margin: 20px 10px;
   }
 }
+
+@media (max-width: 290px) {
+  .products__paragraph-card {
+    font-size: 18px;
+  }
+}

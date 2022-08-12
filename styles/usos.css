@@ -86,11 +86,18 @@ body {
   }
   .products__image-card {
     align-self: center;
-    width: 280px;
+    width: 100%;
+    height: auto;
     margin-top: 5px;
   }
   .products__paragraph-card{
     margin: 20px 10px;
     text-align: center;
+  }
+}
+
+@media (max-width: 290px) {
+  .products__paragraph-card {
+    font-size: 18px;
   }
 }

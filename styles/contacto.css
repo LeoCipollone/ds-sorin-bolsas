@@ -131,3 +131,13 @@ a {
     padding: 0;
   }
 }
+
+@media (max-width: 290px) {
+  .form-button {
+    margin: 10px;
+    margin-left: -10px;
+  }
+  .copyright {
+    font-size: 14px;
+  }
+}

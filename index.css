@@ -3,18 +3,16 @@
 }
 body {
   margin: 0;
-  /* user-select: none; */
 }
 ::-webkit-scrollbar {
   width: 10px;
 }
 ::-webkit-scrollbar-thumb {
-  background: #888;
-}
-::-webkit-scrollbar-track {
   background: #cccccc;
 }
-
+::-webkit-scrollbar-track {
+  background: #888;
+}
 
 .header-container {
   padding: 10px 15px 0 15px;
@@ -306,5 +304,16 @@ footer a {
   .footer-direccion {
     flex-direction: column;
     text-align: center;
+  }
+}
+@media (max-width: 290px) {
+  .home-container {
+    height: 140vh;
+  }
+  .text-container {
+    margin-left: 0;
+  }
+  .button-container {
+    width: 60vw;
   }
 }
