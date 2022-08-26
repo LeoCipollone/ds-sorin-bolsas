@@ -309,7 +309,7 @@ footer a {
     text-align: center;
   }
 }
-@media (max-width: 290px) {
+@media (max-width: 350px) {
   .home-container {
     height: 140vh;
   }
