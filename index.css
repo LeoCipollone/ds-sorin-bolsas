@@ -107,6 +107,9 @@ body {
   margin-right: 10px;
   text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
 }
+.button-home:hover {
+  background-color: rgba(0, 0, 0, 0.35);
+}
 .products-title-card {
   color: #6385fb;
   text-align: center;
